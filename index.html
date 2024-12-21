@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oreva's tasty food</title>
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="foodwebsite.css">
+
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--scroll top-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bxs-chevron-up scrolltop__icon'></i> 
+    </a>
+
+    
+    <!--header-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Oreva's Tasty Food</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact Us</a></li>
+
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--home-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">Tasty food</h1>
+                    <h2 class="home__subtitle">Try the best food of <br> the week.</h2>
+                    <a href="#" class="button">View Menu</a>
+                </div>
+
+                <img src="foodwebImage/img1.jpg" alt="" class="home__img">
+            </div>
+        </section>
+
+        <!--about-->
+        <section class="about section bd-container" id="about">
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <span class="section-subtitle about__initial">About us</span>
+                    <h2 class="section-title about__initial">We cook the best <br> tasty food</h2>
+                    <p class="about__description">We cook the best food in the entire city, with excellent customer service, the best meals and at the best price, visit us.</p>
+                    <a href="#" class="button">Explore history</a>
+                </div>
+
+                <img src="foodwebImage/img2.jpg" alt="" class="about__img">
+            </div>
+        </section>
+
+        <!--services-->
+        <section class="services section bd-container" id="services">
+            <span class="section-subtitle">Offering</span>
+            <h2 class="section-title">Our amazing services</h2>
+
+            <div class="services__container bd-grid">
+                <div class="services__content">
+                    <svg class="services__img" height="90" weight="90"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    viewBox="0 0 56.999 56.999" xml:space="preserve">
+                    <g>
+                        <path d="M56.784,40.046C56.452,39.4,55.795,39,55.069,39h-1.095c-0.464-12.195-9.362-22.26-21.017-24.52
+                            C32.974,14.319,33,14.159,33,14c0-2.757-2.243-5-5-5s-5,2.243-5,5c0,0.159,0.025,0.32,0.043,0.48
+                            C11.387,16.739,2.489,26.805,2.025,39H1.93c-0.726,0-1.383,0.4-1.715,1.046s-0.276,1.413,0.146,2.004l2.26,3.164
+                            C3.867,46.959,5.891,48,8.034,48h40.932c2.143,0,4.167-1.041,5.413-2.786l2.261-3.164C57.061,41.459,57.116,40.691,56.784,40.046z
+                                M25.006,14.172C25.002,14.114,25,14.056,25,14c0-1.654,1.346-3,3-3s3,1.346,3,3c0,0.057-0.002,0.114-0.006,0.172
+                            c-0.047-0.005-0.094-0.007-0.14-0.012c-0.344-0.038-0.69-0.065-1.038-0.089c-0.128-0.009-0.255-0.022-0.383-0.029
+                            C28.957,14.015,28.48,14,28,14s-0.958,0.015-1.432,0.041c-0.128,0.007-0.255,0.02-0.383,0.029
+                            c-0.348,0.024-0.694,0.052-1.038,0.089C25.1,14.165,25.053,14.166,25.006,14.172z M24.406,16.269
+                            c0.535-0.08,1.075-0.138,1.615-0.182c0.11-0.009,0.22-0.017,0.33-0.024c1.098-0.074,2.201-0.074,3.299,0
+                            c0.11,0.008,0.22,0.016,0.33,0.024c0.54,0.044,1.079,0.102,1.615,0.182C42.806,17.96,51.503,27.437,51.979,39H4.02
+                            C4.497,27.437,13.193,17.96,24.406,16.269z M52.751,44.051C51.879,45.271,50.464,46,48.965,46H8.034
+                            c-1.499,0-2.914-0.729-3.786-1.948L2.068,41H54h0.931L52.751,44.051z"/>
+                        <path d="M27.986,18c-1.643,0-3.278,0.181-4.86,0.537c-0.539,0.121-0.877,0.656-0.756,1.195c0.105,0.465,0.518,0.78,0.975,0.78
+                            c0.073,0,0.147-0.008,0.221-0.024C25.004,20.164,26.491,20,27.986,20c0.004,0,0.008,0,0.013,0h0c0.552,0,1-0.447,1-0.999
+                            C29,18.444,28.556,17.981,27.986,18z"/>
+                        <path d="M17.15,20.899C11.946,23.982,8.158,29.56,7.016,35.82c-0.099,0.544,0.261,1.064,0.805,1.163
+                            C7.881,36.995,7.941,37,8.001,37c0.474,0,0.895-0.338,0.983-0.82c1.039-5.698,4.473-10.768,9.186-13.56
+                            c0.475-0.281,0.632-0.895,0.351-1.37C18.238,20.775,17.626,20.618,17.15,20.899z"/>
+                    </g>
+                    </svg>
+                    <h3 class="services__title">Excellent food</h3>
+                    <p class="services__description">We offer our clients excellent quality services for many, with the best and delcious food in the city</p>
+                </div>
+                <div class="services__content">
+                <svg class="services__img" width="90" height="90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 478.996 478.996" xml:space="preserve">
+                <g transform="translate(0 -540.36)">
+                   <g>
+                       <g>
+                           <circle cx="181.758" cy="737.326" r="8.5"/>
+                           <circle cx="73.758" cy="804.926" r="8.5"/>
+                           <circle cx="173.458" cy="887.626" r="8.5"/>
+                           <circle cx="305.158" cy="821.226" r="8.5"/>
+                           <circle cx="347.458" cy="704.726" r="8.5"/>
+                           <circle cx="404.158" cy="696.226" r="8.5"/>
+                           <circle cx="222.958" cy="654.126" r="8.5"/>
+                           <path d="M238.962,903.127c13,0,23.5-10.6,23.5-23.5c0-13-10.5-23.5-23.5-23.5s-23.5,10.5-23.5,23.5
+                               S225.962,903.127,238.962,903.127z M238.962,871.127c4.7,0,8.5,3.8,8.5,8.5s-3.8,8.5-8.5,8.5c-4.7,0-8.5-3.8-8.5-8.5
+                               S234.262,871.127,238.962,871.127z"/>
+                           <path d="M132.462,805.927c-17.9,0-32.5,14.6-32.5,32.5s14.6,32.5,32.5,32.5c17.9,0,32.5-14.5,32.5-32.5
+                               C164.962,820.527,150.362,805.927,132.462,805.927z M132.462,855.927c-9.6,0-17.5-7.9-17.5-17.5s7.9-17.5,17.5-17.5
+                               c9.6,0,17.5,7.9,17.5,17.5S142.062,855.927,132.462,855.927z"/>
+                           <path d="M160.762,712.627c15.7,0,28.5-12.8,28.5-28.5s-12.8-28.5-28.5-28.5c-15.7,0-28.5,12.8-28.5,28.5
+                               S145.062,712.627,160.762,712.627z M160.762,670.627c7.4,0,13.5,6.1,13.5,13.5s-6.1,13.5-13.5,13.5c-7.4,0-13.5-6.1-13.5-13.5
+                               S153.362,670.627,160.762,670.627z"/>
+                           <path d="M122.062,745.527c0-13-10.5-23.5-23.5-23.5s-23.5,10.5-23.5,23.5s10.5,23.5,23.5,23.5S122.062,758.527,122.062,745.527z
+                                M98.562,754.027c-4.7,0-8.5-3.8-8.5-8.5s3.8-8.5,8.5-8.5s8.5,3.8,8.5,8.5S103.262,754.027,98.562,754.027z"/>
+                           <path d="M393.062,757.627c-1.5-1.3-3.5-1.9-5.5-1.7l-172.8,14.8l108.5-136.7c2.6-3.2,2-8-1.2-10.5
+                               c-35.6-28.3-80.2-43.7-125.7-43.1c-45.4,0.5-89.7,16.7-124.8,45.8c-35,29.7-59.2,70.6-67.9,115.3c-8.8,44.9-1.6,91.8,20.1,131.9
+                               c21.3,40.4,56.1,72.4,98,90.3c24.4,10.4,50.4,15.6,76.3,15.6c18.8,0,37.6-2.8,55.7-8.3c43.8-13.2,82.1-41.2,107.8-78.7
+                               c25.7-37.8,37.9-83.7,34.1-129.6C395.462,760.727,394.562,758.927,393.062,757.627z M192.162,775.127c-1.8,2.2-2,5.4-0.6,8.1
+                               c1.4,2.6,4.3,4.2,7.2,3.9l148.8-12.7c3.3,69.2-39.9,130.8-106.8,150.9c-69.5,19.3-141-11.1-173.9-73.9l-0.1-0.1
+                               c-34-61.4-20-139.7,33.1-186.1c54-46.1,129.9-49.2,185.7-7.8L192.162,775.127z M249.362,956.627
+                               c-82.2,25.2-171.5-12.8-212.3-90.4c-41.2-76-22.6-172.2,44.2-228.7c33.8-28,75.6-42.1,117.4-42.1c38.1,0,76.2,11.7,108.2,35.1
+                               l-11.8,14.9c-29.2-21.8-65.3-33.2-101.9-32c-37.5,1.2-74,15.4-103,40.2c-28.4,24.8-47.7,58.9-54.3,95.9
+                               c-6.7,37.2-0.3,75.8,17.9,108.7c17.6,33.5,46.3,60,81,74.6c20.4,8.6,42.4,13,64.6,13c15.3,0,30.6-2.1,45.6-6.2c0.1,0,0.1,0,0.1,0
+                               c36-10.8,67.6-33.8,88.8-64.8c20.4-29.7,30.5-65.7,28.7-101.8l18.7-1.6C384.762,856.327,331.462,931.827,249.362,956.627z"/>
+                           <path d="M478.962,720.027c-5.1-53.5-31.9-103.7-73.5-137.9c-1.6-1.3-3.6-1.9-5.6-1.7s-3.8,1.2-5.1,2.8l-119.3,150.4
+                               c-1.9,2.4-2.1,5.6-0.7,8.2c1.3,2.4,3.9,3.9,6.6,3.9c0.2,0,0.5,0,0.7,0l190.1-17.5c2-0.2,3.8-1.1,5.1-2.7
+                               C478.462,724.027,479.162,722.027,478.962,720.027z M363.962,654.027c4.7,0,8.5,3.8,8.5,8.5s-3.8,8.5-8.5,8.5s-8.5-3.8-8.5-8.5
+                               S359.262,654.027,363.962,654.027z M298.262,729.227l44.6-56.4c3.8,7.8,11.8,13.2,21.1,13.2c13,0,23.5-10.5,23.5-23.5
+                               c0-11.2-7.8-20.5-18.2-22.9l11.5-14.4c26.7,23.9,43.5,55.5,49,91.9L298.262,729.227z M444.662,715.727
+                               c-5.9-40.6-24.7-75.7-54.6-102.3l11.6-14.7c33.4,29.8,55.4,71.1,61.4,115.3L444.662,715.727z"/>
+                       </g>
+                   </g>
+                </g>
+                </svg>
+                    <h3 class="services__title">Fast food</h3>
+                    <p class="services__description">We offer our clients excellent quality services for many, with the best and delcious food in the city</p>
+                </div>
+                <div class="services__content">
+                    <svg class="services__img" fill="#000000" height="90px" width="90px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"       xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 491.1 491.1" xml:space="preserve">
+                    <g transform="translate(0 -540.36)">
+                        <g>
+                            <g>
+                                <path d="M401.5,863.31c-12,0-23.4,4.7-32,13.2c-8.6,8.6-13.4,19.8-13.4,31.8s4.7,23.2,13.4,31.8c8.7,8.5,20,13.2,32,13.2
+                                    c24.6,0,44.6-20.2,44.6-45S426.1,863.31,401.5,863.31z M401.5,933.31c-13.8,0-25.4-11.4-25.4-25s11.6-25,25.4-25
+                                    c13.6,0,24.6,11.2,24.6,25S415.1,933.31,401.5,933.31z"/>
+                                <path d="M413.1,713.41c-1.8-1.7-4.2-2.6-6.7-2.6h-51.3c-5.5,0-10,4.5-10,10v82c0,5.5,4.5,10,10,10h81.4c5.5,0,10-4.5,10-10v-54.9
+                                    c0-2.8-1.2-5.5-3.3-7.4L413.1,713.41z M426.5,792.81h-61.4v-62.1h37.4l24,21.6V792.81z"/>
+                                <path d="M157.3,863.31c-12,0-23.4,4.7-32,13.2c-8.6,8.6-13.4,19.8-13.4,31.8s4.7,23.2,13.4,31.8c8.7,8.5,20,13.2,32,13.2
+                                    c24.6,0,44.6-20.2,44.6-45S181.9,863.31,157.3,863.31z M157.3,933.31c-13.8,0-25.4-11.4-25.4-25s11.6-25,25.4-25
+                                    c13.6,0,24.6,11.2,24.6,25S170.9,933.31,157.3,933.31z"/>
+                                <path d="M90.6,875.61H70.5v-26.6c0-5.5-4.5-10-10-10s-10,4.5-10,10v36.6c0,5.5,4.5,10,10,10h30.1c5.5,0,10-4.5,10-10
+                                    S96.1,875.61,90.6,875.61z"/>
+                                <path d="M141.3,821.11c0-5.5-4.5-10-10-10H10c-5.5,0-10,4.5-10,10s4.5,10,10,10h121.3C136.8,831.11,141.3,826.71,141.3,821.11z"
+                                    />
+                                <path d="M30.3,785.01l121.3,0.7c5.5,0,10-4.4,10.1-9.9c0.1-5.6-4.4-10.1-9.9-10.1l-121.3-0.7c-0.1,0-0.1,0-0.1,0
+                                    c-5.5,0-10,4.4-10,9.9C20.3,780.51,24.8,785.01,30.3,785.01z"/>
+                                <path d="M50.7,739.61H172c5.5,0,10-4.5,10-10s-4.5-10-10-10H50.7c-5.5,0-10,4.5-10,10S45.2,739.61,50.7,739.61z"/>
+                                <path d="M487.4,726.11L487.4,726.11l-71.6-59.3c-1.8-1.5-4-2.3-6.4-2.3h-84.2v-36c0-5.5-4.5-10-10-10H60.5c-5.5,0-10,4.5-10,10
+                                    v73.2c0,5.5,4.5,10,10,10s10-4.5,10-10v-63.2h234.8v237.1h-82c-5.5,0-10,4.5-10,10s4.5,10,10,10h122.1c5.5,0,10-4.5,10-10
+                                    s-4.5-10-10-10h-20.1v-191.1h80.6l65.2,54l-0.7,136.9H460c-5.5,0-10,4.5-10,10s4.5,10,10,10h20.3c5.5,0,10-4.4,10-9.9l0.8-151.6
+                                    C491,730.91,489.7,728.01,487.4,726.11z"/>
+                            </g>
+                        </g>
+                    </g>
+                    </svg>
+                    <h3 class="services__title">Delivery</h3>
+                    <p class="services__description">We offer our clients excellent quality services for many, with the best and delcious food in the city</p>
+                </div>
+            </div>
+        </section>
+
+        <!--menu-->
+        <section class="menu section bd-container" id="menu">
+            <span class="section-subtitle">Special</span>
+            <h2 class="section-title">Menu of the week</h2>
+
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="foodwebImage/img3.jpg" alt="" class="menu__img">
+                    <h3 class="menu__name">Chicken sauce</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$22.00</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="foodwebImage/img4.jpg" alt="" class="menu__img">
+                    <h3 class="menu__name">Vegetable sauce</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$30.00</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="foodwebImage/img5.jpg" alt="" class="menu__img">
+                    <h3 class="menu__name">Barbecue sauce</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__preci">$12.00</span>
+                    <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- app -->
+        <section class="app section bd-container">
+            <div class="app__container bd-grid">
+                <div class="app__data">
+                    <span class="section-subtitle app__initial">App</span>
+                    <h2 class="section-title app__initial">App is avaliable</h2>
+                    <p class="app__description">
+                        Find out application and download it, you can make reservation; food orders, see your delivery on the way and much more.
+                    </p>
+
+                    <div class="app__stores">
+                        <a href="#"><img src="foodwebImage/gooleapp.jpg" alt="" class="app__store"></a>
+                        <a href="#"><img src="foodwebImage/appleApp.jpg" alt="" class="app__store"></a>
+                    </div>
+
+                </div>
+                <img src="foodwebImage/img8.png" alt="" class="app__img">
+            </div>
+        </section>
+
+        <!-- contact us -->
+        <section class="contact section bd-container" id="contact">
+            <div class="contact__container bd-grid">
+                <div class="contact__data">
+                    <span class="section-subtitle contact__initial">Let's talk</span>
+                    <h2 class="section-title contact__initial">Contact us</h2>
+                    <p class="contact__description">
+                        If you want to reserve a table in our restaurant, contact us and we will attend to you quickly, with our 24/7 chat service. 
+                    </p>
+                </div>
+                <div class="contact__button">
+                    <a href="#" class="button">Contact us now</a>
+                </div>
+            </div>
+        </section> 
+    </main>
+
+    <!--footer-->
+    <footer class="footer section bd-container">
+        <div class="footer__container bd-grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">Oreva's Tasty Food</a>
+                <span class="footer__description">Resturant</span>
+
+                <div>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Services</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Delivery</a></li>
+                    <li><a href="#" class="footer__link">Pricing</a></li>
+                    <li><a href="#" class="footer__link">Fast food</a></li>
+                    <li><a href="#" class="footer__link">Reserve your spot</a></li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Information</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Event</a></li>
+                    <li><a href="#" class="footer__link">Contact us</a></li>
+                    <li><a href="#" class="footer__link">Privacy policy</a></li>
+                    <li><a href="#" class="footer__link">Terms of services</a></li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Address</h3>
+                <ul>
+                    <li>Edo State - Benin</li>
+                    <li>Jr Union #333</li>
+                    <li>08126680282</li>
+                    <li>orevatastyfood@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="footer__copy">&copy; 2024 Edegbe. All right reserved.</p>
+    </footer>
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--Main js-->
+    <script src="foodweb.js"></script>
+</body>
+</html>
